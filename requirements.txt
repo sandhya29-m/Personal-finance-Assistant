@@ -1,40 +1,25 @@
-streamlit==1.38.0
+streamlit
 
-# AI Framework
-langchain==0.3.0
-langchain-core==0.3.5
-langchain-community==0.3.0
-langgraph==0.2.21
-langchain-groq==0.2.0
-groq>=0.11.0
+langchain
+langchain-core
+langchain-community
+langgraph
+langchain-groq
+groq
 
-# Environment
-python-dotenv==1.0.1
+python-dotenv
 
-# Data Validation
-pydantic==2.9.2
+pydantic
 
-# Data Processing
-pandas==2.2.3
-numpy==1.26.4
+pandas
+numpy<2
 
-# Visualization
-plotly==5.24.1
+plotly
 
-# Database
-sqlalchemy==2.0.35
+sqlalchemy
 
-# HTTP
-httpx==0.27.2
-requests==2.32.3
+requests
+httpx
 
-
-# JSON
-orjson==3.10.7
-
-# Voice
-edge-tts==6.1.18
-streamlit-mic-recorder==0.0.8
-
-# Utilities
-typing-extensions>=4.12.2
+edge-tts
+streamlit-mic-recorder
